@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Discussion Section 9: Pipes and Select</title>
+    
+	<style type="text/css">
+	body { font-family: arial; font-size: 12px; }
+	h2 { font-size: 24px; }
+	h3 { font-size: 22px; }
+	h4 { font-size: 16px; }
+	blockquote { border: dashed 1px black; padding: 3px; display: block; background-color: #dddddd;  font-family: courier; color: #000080;}
+	tt { color: #000080; }
+	</style>
+</head>
+
+<body>
+	<h1>Discussion Section for April 4, 2013: Introduction to MP7</h1>
+	<hr />
+
+	<h2>In Discussion Section</h2>
+	<p>
+        The main part of this discussion is to program interprocess communication using <a href="http://linux.die.net/man/2/pipe">pipes</a>, and use <a href="http://linux.die.net/man/2/select">select()</a> to perform I/O multiplexting.
+        <ul>
+            <li>The parent creates two separate pipes to communicate with two (<a href="http://linux.die.net/man/2/fork">fork()</a>'ed) child processes. (The child processes communicate only with the parent, not with each other.) The children only write to their respective pipes, and the parent only reads from the pipes.
+            <li>The parent uses select() to read from the two pipes as soon as data is available</li>
+        </ul>
+	</p>
+
+    <p>
+      The framework/relevant code is in <tt>ds9c.c</tt> (which you will complete) and <tt>ds9c-child-work.c</tt> (which does not need to be modified). You may start working on <tt>ds9c.c</tt> immediately, or you may work on <tt>ds9a.c</tt> and <tt>ds9b.c</tt> first, which serve as a more gentle introduction to pipes.
+
+
+	<h2>Compiling and Running</h2>
+	<p>To compile and run, use the following commands from a terminal on a Linux machine:</p>
+	<blockquote>
+	$ make<br />
+    $ ./ds9c<br />
+    $ ./ds9a<br />
+    $ ./ds9b<br />
+	</blockquote>
+
+
+</body>
+</html>

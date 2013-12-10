@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sp13-cs241/!svn/ver/23687/schopra2/mpx_client
+END
+test1.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/test1.c
+END
+libmapreduce.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sp13-cs241/!svn/ver/22956/schopra2/mpx_client/libmapreduce.h
+END
+test2.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sp13-cs241/!svn/ver/20440/schopra2/mpx_client/test2.c
+END
+autograde.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sp13-cs241/!svn/ver/23687/schopra2/mpx_client/autograde.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/Makefile
+END
+example_nosql_server
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/example_nosql_server
+END
+libmapreduce.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sp13-cs241/!svn/ver/23357/schopra2/mpx_client/libmapreduce.c
+END

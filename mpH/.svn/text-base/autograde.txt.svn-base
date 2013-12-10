@@ -1,0 +1,40 @@
+== CS 241 Autograder Note: ==
+This autograder is a preliminary assessment of your program's correctness. Your
+grade may change UP OR DOWN based on the CORRECTNESS OF YOUR PROGRAM. We make every effort to ensure
+that our autograder is 'smart' enough to not count off for simple things like grammar but, in doing so,
+we may inadvertently allow for incorrect code to be counted as correct. If we have to change our script
+to better reflect the CORRECTNESS OF YOUR PROGRAM, we will run the script on EVERY PROGRAM and update
+EVERY AUTOGRADER OUTPUT to ensure fairness to all students. Thanks for understanding! - CS 241 Staff
+
+(Please note, this autograder does not reflect a late submission penalty. This will be applied on Compass.)
+
+
+=== libdrm (deadlock resilient mutexes) Autograder Summary ===
+Program Execution Score (90% weight): 0.0/5.0 (0.0%)
+Program Heap Freed (5% weight): FAILED (0%)
+Correct Memory Usage (5% weight): FAILED (0%)
+
+
+=== libdrm (deadlock resilient mutexes) Scoring Breakdown ===
+--- Details for "All Test Cases" ---
+Total "All Test Cases" Sub-Score: 0.0
+	... Details for "All Test Cases", "NDC: Deadlock /1pt"...
+	Total "All Test Cases", "NDC: Deadlock /1pt" Sub-Score: 0.0
+	... Details for "All Test Cases", "NDC: No Deadlock /1pt"...
+	Total "All Test Cases", "NDC: No Deadlock /1pt" Sub-Score: 0.0
+	... Details for "All Test Cases", "DP: Prevent deadlock /1pt"...
+	Total "All Test Cases", "DP: Prevent deadlock /1pt" Sub-Score: 0.0
+	... Details for "All Test Cases", "DA: Avoiding deadlocks /1pt"...
+	Total "All Test Cases", "DA: Avoiding deadlocks /1pt" Sub-Score: 0.0
+	... Details for "All Test Cases", "DD: Testing deadlock detection /1pt"...
+	Total "All Test Cases", "DD: Testing deadlock detection /1pt" Sub-Score: 0.0
+
+
+
+
+=== libdrm (deadlock resilient mutexes) Raw Autograder Log ===
+[config]: Initializing the AssignmentGrader class "libdrm"...
+[config]: Initializing the SegmentGrader class "libdrm_1". Loading...
+[config]: Assignment initalization complete!
+[info]: The submission in "/class/cs241/private/svn/sp13-cs241/schopra2" for assignment "libdrm" was reported to be empty. Grading was skipped.
+[info]: The submission in "/class/cs241/private/svn/sp13-cs241/schopra2" for assignment "libdrm" has finished grading. Running final tasks...

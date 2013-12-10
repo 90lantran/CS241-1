@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sp13-cs241/!svn/ver/20332/schopra2/mp8/libs
+END
+libdictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sp13-cs241/!svn/ver/20242/schopra2/mp8/libs/libdictionary.h
+END
+libhttp.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sp13-cs241/!svn/ver/20332/schopra2/mp8/libs/libhttp.c
+END
+libhttp.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sp13-cs241/!svn/ver/20242/schopra2/mp8/libs/libhttp.h
+END
+libdictionary.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sp13-cs241/!svn/ver/20242/schopra2/mp8/libs/libdictionary.c
+END

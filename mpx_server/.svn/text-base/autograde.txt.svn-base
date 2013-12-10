@@ -1,0 +1,44 @@
+== CS 241 Autograder Note: ==
+This autograder is a preliminary assessment of your program's correctness. Your
+grade may change UP OR DOWN based on the CORRECTNESS OF YOUR PROGRAM. We make every effort to ensure
+that our autograder is 'smart' enough to not count off for simple things like grammar but, in doing so,
+we may inadvertently allow for incorrect code to be counted as correct. If we have to change our script
+to better reflect the CORRECTNESS OF YOUR PROGRAM, we will run the script on EVERY PROGRAM and update
+EVERY AUTOGRADER OUTPUT to ensure fairness to all students. Thanks for understanding! - CS 241 Staff
+
+(Please note, this autograder does not reflect a late submission penalty. This will be applied on Compass.)
+
+
+=== MPx (Server) Autograder Summary ===
+Program Execution Score (90% weight): 0.0/35.0 (0.0%)
+Program Heap Freed (5% weight): FAILED (0%)
+Correct Memory Usage (5% weight): FAILED (0%)
+
+
+=== MPx (Server) Scoring Breakdown ===
+--- Details for "MPx (Server)" ---
+Total "MPx (Server)" Sub-Score: 0.0
+	... Details for "MPx (Server)", "Is the GET operation performed correctly?"...
+	Total "MPx (Server)", "Is the GET operation performed correctly?" Sub-Score: 0.0
+	... Details for "MPx (Server)", "Is an erroneous GET operation performed correctly?"...
+	Total "MPx (Server)", "Is an erroneous GET operation performed correctly?" Sub-Score: 0.0
+	... Details for "MPx (Server)", "Is the PUT operation performed correctly?"...
+	Total "MPx (Server)", "Is the PUT operation performed correctly?" Sub-Score: 0.0
+	... Details for "MPx (Server)", "Is an erroneous PUT operation performed correctly?"...
+	Total "MPx (Server)", "Is an erroneous PUT operation performed correctly?" Sub-Score: 0.0
+	... Details for "MPx (Server)", "Is an UPDATE operation performed correctly?"...
+	Total "MPx (Server)", "Is an UPDATE operation performed correctly?" Sub-Score: 0.0
+	... Details for "MPx (Server)", "Is a DELETE operation performed correctly?"...
+	Total "MPx (Server)", "Is a DELETE operation performed correctly?" Sub-Score: 0.0
+	... Details for "MPx (Server)", "Is an erroneous DELETE operation performed correctly?"...
+	Total "MPx (Server)", "Is an erroneous DELETE operation performed correctly?" Sub-Score: 0.0
+
+
+
+
+=== MPx (Server) Raw Autograder Log ===
+[config]: Initializing the AssignmentGrader class "mpx_server"...
+[config]: Initializing the SegmentGrader class "mpx_server_1". Loading...
+[config]: Assignment initalization complete!
+[info]: The submission in "../../svn/cs241/schopra2" for assignment "mpx_server" was reported to be empty. Grading was skipped.
+[info]: The submission in "../../svn/cs241/schopra2" for assignment "mpx_server" has finished grading. Running final tasks...

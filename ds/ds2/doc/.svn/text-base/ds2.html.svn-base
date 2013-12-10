@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS 241</title>
+    
+    <style type="text/css">
+    body { font-family: arial; font-size: 12px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 16px; }
+    blockquote { border: dashed 1px black; padding: 3px; display: block; background-color: #dddddd;  font-family: courier; color: #000080;}
+    tt { color: #000080; }
+    </style>
+</head>
+<body>
+    <h2>Introduction</h2>
+    <p>
+        The <tt>malloc()</tt> contest is started. The functions of
+        the <tt>malloc</tt>-family which are included in
+        the <tt>libc</tt> library have been carefully designed to
+        achieve excellent performances and low memory
+        fragmentation. The <tt>libc</tt> has been developed since the
+        late 1980s, acquiring more and more refinements and
+        performance tweaks. So, do you think you can do better? Of
+        course you can! And you have two weeks to demonstrate it to
+        the world.
+    </p>
+
+    <h2>Playing with <tt>malloc()</tt></h2>
+    <p>
+        You may have noticed that the files included for this
+        discussion section are pretty much the same as those included
+        in the MP2. There are several reasons for that, among which:
+	
+	<ul>
+	  <li>Implementing a good <tt>malloc()</tt> requires concentration</li>
+	  <li>Good ideas come from mistakes</li>
+	  <li>Nobody wants to mess up with the MP file tree</li>
+	</ul>
+	
+	So, this DS2 is your personal mess-proof space for
+	the <tt>malloc()</tt> contest: the place where you can test how
+	bad a badly implemented <tt>malloc()</tt> can run; the place
+	where you can test additional (experimental) tweaks to improve
+	your submitted <tt>malloc()</tt>; the place where you can put as
+	much buggy code as you want being confident that nobody will
+	give a look into it; and finally the place where your mistakes
+	does not represent negative points on the final grade of this
+	MP.
+    </p>
+
+    <h2>Files Overview</h2>
+
+    
+    We provide two types of files: 
+
+    <ul>
+      <li>
+        <b>mreplace.c / mcontest.c / alloc-contest.c /
+        debug.h</b>: <span style="color: #880000;">Don't edit these
+        file!</span><br>  These files create the system environment to
+        ensure that calls to <tt>malloc()</tt> and related memory
+        functions are passed on to <b>your</b> memory functions and
+        not the standard libc ones. You should not edit this file, as
+        we will replace it with a new, clean copy when we run your
+        program.<br>
+        <br>
+      </li>
+      
+      <li>
+        <b>alloc.c</b>: <span style="color: #008800;">Edit this
+        file!</span><br>  This file provides blank implementations
+        of <tt>malloc()</tt>, <tt>realloc()</tt>, and <tt>free()</tt>.
+        Since <tt>calloc()</tt> is a trivial modification
+        of <tt>malloc()</tt>, we provide a working version
+        of <tt>calloc()</tt> that makes use of your <tt>malloc()</tt>.
+      </li>
+      
+    </ul>
+    
+    <h2>Compile and Run</h2>
+    
+    <p>
+      Much more detailed instructions on how to compile and run the
+      files included in this packet are available on
+      the <a href="https://courses.engr.illinois.edu/cs241/mp/MP2/doc/index.html">MP2
+	page</a>. However, a quick way to get started is:
+    </p>      
+    <blockquote>
+      make clean<br /> make
+    </blockquote>
+
+    <p>
+      After a successful make, you will have compiled
+      your <tt>malloc()</tt> as a shared library object (.so) and can
+      use the launcher to launch the test cases included in the
+      package or <b>any</b> Linux program using your allocation
+      library. To do so, run:
+    </p>
+    <blockquote>
+      ./mreplace tester-1<br />
+      ./mreplace tester-2<br />
+      ./mreplace tester-3<br />
+      ./mreplace tester-4<br />
+      ./mreplace &lt;Program Name&gt; [&lt;Program Args&gt; ...]
+    </blockquote>
+
+    <p>
+      Once you get it working, it's time to know how good your
+      implementation is. The parameters that will be used to benchmark
+      your <tt>malloc()</tt> are:
+      
+      <ul>
+	<li>Maximum heap usage</li>
+	<li>Average heap usage</li>
+	<li>Time to run program</li>
+      </ul>
+
+      Thereby, to run the benchmark yourself, you can use the
+      provided <tt>mcontest</tt> executable:
+
+    </p>
+    <blockquote>
+      ./mcontest &lt;Program Name&gt; [&lt;Program Args&gt; ...]
+    </blockquote>
+    
+    <p>
+      Time to get started! Bootstrap your ideas, prepare your shells.
+    </p>
+</body>
+
+</html>

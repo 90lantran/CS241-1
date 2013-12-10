@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson
+END
+strconv.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/strconv.c
+END
+utf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/utf.c
+END
+hashtable.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/hashtable.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/LICENSE
+END
+strbuffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/strbuffer.c
+END
+utf.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/utf.h
+END
+jansson_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/jansson_config.h
+END
+dump.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/dump.c
+END
+strbuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/strbuffer.h
+END
+memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/memory.c
+END
+jansson_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/jansson_private.h
+END
+value.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/value.c
+END
+pack_unpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/pack_unpack.c
+END
+load.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/load.c
+END
+jansson.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/jansson.h
+END
+README.rst
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/README.rst
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/error.c
+END
+hashtable.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/hashtable.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sp13-cs241/!svn/ver/20323/schopra2/mpx_client/libjson/Makefile
+END

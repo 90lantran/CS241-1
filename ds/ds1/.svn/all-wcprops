@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/sp13-cs241/!svn/ver/14417/schopra2/ds/ds1
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sp13-cs241/!svn/ver/785/schopra2/ds/ds1/test.c
+END
+ds1.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sp13-cs241/!svn/ver/14417/schopra2/ds/ds1/ds1.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sp13-cs241/!svn/ver/785/schopra2/ds/ds1/Makefile
+END

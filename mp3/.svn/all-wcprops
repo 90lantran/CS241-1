@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/sp13-cs241/!svn/ver/13496/schopra2/mp3
+END
+log.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sp13-cs241/!svn/ver/10625/schopra2/mp3/log.c
+END
+testlog.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sp13-cs241/!svn/ver/10576/schopra2/mp3/testlog.c
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sp13-cs241/!svn/ver/9550/schopra2/mp3/log.h
+END
+shell.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sp13-cs241/!svn/ver/10625/schopra2/mp3/shell.c
+END
+autograde.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sp13-cs241/!svn/ver/13496/schopra2/mp3/autograde.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sp13-cs241/!svn/ver/7244/schopra2/mp3/Makefile
+END

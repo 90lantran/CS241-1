@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sp13-cs241/!svn/ver/21666/schopra2/ds/ds11/sol
+END
+ds11_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sp13-cs241/!svn/ver/21666/schopra2/ds/ds11/sol/ds11_server.c
+END
+ds11_aux.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sp13-cs241/!svn/ver/21666/schopra2/ds/ds11/sol/ds11_aux.c
+END
+ds11_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sp13-cs241/!svn/ver/21666/schopra2/ds/ds11/sol/ds11_client.c
+END
+ds11_aux.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sp13-cs241/!svn/ver/21666/schopra2/ds/ds11/sol/ds11_aux.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sp13-cs241/!svn/ver/21666/schopra2/ds/ds11/sol/Makefile
+END
